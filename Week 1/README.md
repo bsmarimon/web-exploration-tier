@@ -34,7 +34,7 @@ You'll see a lot of web projects have a file called README.md which provides som
 
 #### Github & Git
 
-Remember that holy book from earlier? Well it's back! I'm going to direct you guys to here to read a little bit about Github and Git, but we'll also go more in depth during meetings.
+Remember that holy book from earlier? Well it's back! I'm going to direct you guys to here to read a little bit about Github and Git, but we'll also go more in depth during meetings. We'll also make sure that everyone has accounts :) 
 
 <https://github.com/cle1994/InnoD_Web_Handbook/blob/master/1-setup_and_basics.md#git>
 
