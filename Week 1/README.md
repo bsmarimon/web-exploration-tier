@@ -23,7 +23,7 @@ So what's the best approach to writing code? There are lots of different text ed
 
 Each one has it's pros and cons, and you can try them out as we go along and decide what you like best.
 
-#### Wait, how did I writing this?
+#### Wait, how did I write this?
 Markdown is a popular language used on the web for creating aesthetically appealing text documents. You can read about the syntax (the way to write it) here <https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet>.
 
 If you want to try writing some in your browser, just visit this link! It's will take whatever markdown you write and render it for you live!
@@ -34,7 +34,7 @@ You'll see a lot of web projects have a file called README.md which provides som
 
 #### Github & Git
 
-Remember that holy book from earlier? Well it's back! I'm going to direct you guys to here to read a little bit about Github and Git, but we'll also go more in depth during meetings. We'll also make sure that everyone has accounts :) 
+Remember that holy book from earlier? Well it's back! I'm going to direct you guys to here to read a little bit about Github and Git, but we'll also go more in depth during meetings. We'll also make sure that everyone has accounts :)
 
 <https://github.com/cle1994/InnoD_Web_Handbook/blob/master/1-setup_and_basics.md#git>
 
