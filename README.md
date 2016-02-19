@@ -2,3 +2,5 @@ Innovative Design is a creative agency at the University of California, Berkeley
 
 Club Website:<br>
 <http://innovativedesign.club>
+
+Benjamin Marimon 
