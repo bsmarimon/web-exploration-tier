@@ -14,6 +14,13 @@ One of the most important things that you'll be learning about during this semes
 * echo _arg1_ - prints _arg1_ to the console
 * ls (Mac), dir (Windows) - prints all files and directories within your current directory
 
+#### Homebrew (Mac only)
+
+To install, open your terminal, run 
+
+> ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+
 #### Text Editors
 So what's the best approach to writing code? There are lots of different text editors out there, with fancy plugins and features, that can help out. A couple of the more popular ones are
 
@@ -37,6 +44,10 @@ You'll see a lot of web projects have a file called README.md which provides som
 Remember that holy book from earlier? Well it's back! I'm going to direct you guys to here to read a little bit about Github and Git, but we'll also go more in depth during meetings. We'll also make sure that everyone has accounts :)
 
 <https://github.com/cle1994/InnoD_Web_Handbook/blob/master/1-setup_and_basics.md#git>
+
+For installation, read
+
+<https://git-scm.com/book/en/v2/Getting-Started-Installing-Git>
 
 On a completely unrelated note, do you know why this URL link has a #git at the end?
 
