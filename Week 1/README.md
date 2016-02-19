@@ -45,6 +45,10 @@ On a completely unrelated note, do you know why this URL link has a #git at the 
 * <http://hex.innovativedesign.club/>
 * <http://apply.innovativedesign.club>
 
+* <http://www.siteinspire.com/>
+* <https://codyhouse.co/>
+* <http://tympanus.net/codrops/>
+
 
 #### Browsers
 
