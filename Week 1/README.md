@@ -16,9 +16,9 @@ One of the most important things that you'll be learning about during this semes
 
 #### Homebrew (Mac only)
 
-To install, open your terminal, run 
+To install, open your terminal, run
 
-> ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+``ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"``
 
 
 #### Text Editors
