@@ -23,3 +23,9 @@ The last concept we'll touch on here isn't related to front end web design, but 
 We touched a little on HTML when hosting a website through Github, but now we're going to learn even more about it! HTML stands for HyperText Markdown Language. The idea is that a developer writes plain text, then marks it down with a specific language, changing how it appears. To start, let's talk about tags, or this language we'll use to change how plain text appears. Common tags are the paragraph tag, <p>, the link tag, <a>, and the bold tag <b>. Every tag in HTML starts with the letter, or word, specifying the tag, surrounded by <tag>. Every tag the ends with the same letter surrounded by </tag>. An example of a properly formatted tag is
 
 -> <p>Innovative Design Retreat is coming up soon, get excited!</p> <-
+
+Links work in a similar way, but now have some additional fields we need to specific, in particular, what the link will link us too!
+
+-> <a href="www.google.com">Click here to go to google!</a> <-
+
+If we want the link to open up a new tab, instead of changing the current page to the one specified in the link, we can also add target="\_blank".
