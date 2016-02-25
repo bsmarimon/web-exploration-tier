@@ -1,5 +1,10 @@
 ## Week 2
 
+#### Logistics
+RGB, a design event hosting by the club, is coming up. Here's a sneak peak of the website by Julia Sun, <http://juliasun.io>.
+
+<http://rgb.innovativedesign.club>
+
 #### Review of Git
 Git is a version control system designed to help organize small and large projects. Now, to review what we went over last week. First, Github is a web-based Git repository hosting service. You can use it to collaborate on projects with partners, or to hold code for personal projects (there are a lot of uses). The code you have in a repository your machine is your local copy. The same repository on Github is the remote copy. When you create a Git repo using `git init` (see below), the repository is not initialized with any remotes, and you must add them manually. If you clone a repository, the link you clone from is added as a remote with the name origin automatically, since by cloning, you tell Git where the repository remote is located! Below is a list of popular Git commands.
 
