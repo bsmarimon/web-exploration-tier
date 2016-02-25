@@ -20,12 +20,23 @@ Not every website you see has a \*.github.io domain, so how are they hosted? Ano
 The last concept we'll touch on here isn't related to front end web design, but to web security design. Why does Github configure domain names to be https://username.github.io instead of, for instance, https://github.io/username? Part of the answer is a web security concept called Same Origin Policy, implemented in modern browsers. Every website has an origin, which is collectively defined by it's protocol (http, https), it's domain name (username.github.io), and it's port number (2222), but we won't worry about the last one for now. For example, the origin for https://www.innovativedesign.club/decal/lesson/1 is https://www.innovativedesign.club. The Same Origin Policy states that a web browser should not permit scripts on one site to interact with another site if both web pages do not have the same origin - web pages can only "know" about other web pages with the same origin. Coming back to Github, their design choice means that every user website is protected from other user sites, since each has a separate origin due to the username domain name.
 
 #### HTML (the first triforce piece heh)
-We touched a little on HTML when hosting a website through Github, but now we're going to learn even more about it! HTML stands for HyperText Markdown Language. The idea is that a developer writes plain text, then marks it down with a specific language, changing how it appears. To start, let's talk about tags, or this language we'll use to change how plain text appears. Common tags are the paragraph tag, <p>, the link tag, <a>, and the bold tag <b>. Every tag in HTML starts with the letter, or word, specifying the tag, surrounded by <tag>. Every tag the ends with the same letter surrounded by </tag>. An example of a properly formatted tag is
+We touched a little on HTML when hosting a website through Github, but now we're going to learn even more about it! HTML stands for HyperText Markdown Language. The idea is that a developer writes plain text, then marks it down with a specific language, changing how it appears. To start, let's talk about tags, or this language we'll use to change how plain text appears. Common tags are the paragraph tag, `<p>`, the link tag, `<a>`, and the bold tag `<b>`. Every tag in HTML starts with the letter, or word, specifying the tag, surrounded by <tag>. Every tag the ends with the same letter surrounded by </tag>. An example of a properly formatted tag is
 
--> <p>Innovative Design Retreat is coming up soon, get excited!</p> <-
+-> `<p>Innovative Design Retreat is coming up soon, get excited!</p>` <-
 
 Links work in a similar way, but now have some additional fields we need to specific, in particular, what the link will link us too!
 
--> <a href="www.google.com">Click here to go to google!</a> <-
+-> `<a href="www.google.com">Click here to go to google!</a>` <-
 
-If we want the link to open up a new tab, instead of changing the current page to the one specified in the link, we can also add target="\_blank".
+If we want the link to open up a new tab, instead of changing the current page to the one specified in the link, we can also add target="\_blank". This can helpful in case that the user will still want to use the web page they're currently at, in addition to the one in the link.
+
+-> `<a target="_blank" href="www.google.com">Click here to go to google!</a>` <-
+
+During the meeting, we'll go over other HTML tags, including how to add images. For now, if you want a more in depth overview of HTML tags, check out <https://github.com/cle1994/InnoD_Web_Handbook/blob/master/3-html.md>.
+
+#### CSS (the second piece!)
+CSS stands for Cascading Style Sheets and, to put it simply, is used to make our web pages look pretty (aesthetically appealing?). The first step is figuring out how to get our HTML files and CSS files to talk to each other, since just because we place them in the same directory, doesn't mean that the browser will automatically link them together for us. This "linking" is done in the `<head></head>` section of an HTML file, with the `<link>` tag. For instance
+
+-> `<link rel="stylesheet" type="text/css" href="main.css">` <-
+
+Once we've linked our CSS, it can start talking to our HTML files. We'll go over ids, classes, and CSS syntax during the meeting. For a more in depth overview of CSS properties, again, I suggest you check out <https://github.com/cle1994/InnoD_Web_Handbook/blob/master/4-css.md>. There are also some links here to some really great sites, such as W3Schools.
