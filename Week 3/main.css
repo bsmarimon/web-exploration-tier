@@ -1,0 +1,20 @@
+/*
+Pikachu color scheme
+#f6e652;  yellow
+#de9400;  orange/brown
+#f6bd20;  goldenrod
+#c52018;  red
+#292929;  black
+#e65a41;   red/pinkish hue
+*/
+
+/* Navigation bar CSS */
+
+
+/* Content CSS */
+
+.box {
+  background-color: #c52018;
+  height: 100px;
+  width: 100px;
+}
