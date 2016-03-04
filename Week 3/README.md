@@ -21,7 +21,7 @@ We're going to add a couple more HTML elements to our toolbox today. To start, w
 #### The Box Model
 We can place elements on a page, but how can we add spacing between them? Every element has it's own box model, which consists of content, padding, border, and margins. You can find a helpful visualization of this here <http://www.w3schools.com/css/css_boxmodel.asp>. We'll go through a couple exercises, but for now, the most important two concepts here are padding and margins.
 
-#### Vertical Alignment
+#### Alignment
 Vertical and horizontal alignment are important to know in general for web design. Let's start with vertical alignment, and the concept of parent and child elements.
 
 ```
@@ -31,6 +31,16 @@ Vertical and horizontal alignment are important to know in general for web desig
   transform: translateY(-50%);
 }
 ```
+
+For horizontal alignment,
+
+```
+.element {
+  margin: 0 auto;
+}
+```
+
+For more creative centering methods, <https://codemyviews.com/blog/how-to-center-anything-with-css>. 
 
 #### Breaking Pages into Components
 When thinking about the design of page, it can be helpful to examine the individual components on the page and consider what each accomplishes. To start, let's look at a very common component of most websites, the navigation bar. Let's walk through the tutorial on how to do a horizontal navigation bar.
