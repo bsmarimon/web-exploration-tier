@@ -5,7 +5,8 @@ Retreat is this weekend ~ get excited! RGB, a design event hosting by the club, 
 
 <http://rgb.innovativedesign.club>
 
-Time for good news! Also, if you ever played Pokemon as a kid, check this out <http://www.pokegraphs.com/>. If you like windows, check out this too <http://www.windowsofnewyork.com/>.
+#### This Week in Web Design
+For Pokemon fans, <http://www.pokegraphs.com/>. For window enthusiasts, <http://www.windowsofnewyork.com/>. And also, I thought we'd take a look at <http://wdd.io>.
 
 #### Review of CSS
 The properties we covered last week were
