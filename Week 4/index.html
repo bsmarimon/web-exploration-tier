@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Linking jQuery for our web page, notice the "min" in the file extension. -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<!-- Linking our CSS -->
+	<link href="style.css" rel="stylesheet" type="text/css">
+	<!-- Linking fonts that we can use -->
+	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	<!-- Linking our script -->
+	<script src="script.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="task">
+			<h5>1. On button click, have the div alternate between two colors.</h5>
+			<p>Do the implementation using only jQuery.</p>
+			<div class="header" id="userAnimation1"></div>
+			<button id="animate1">Click me</button>
+		</div>
+		<div class="task">
+			<h5>2. On button click, have the div alternate between two colors.</h5>
+			<p>Do the implementation using only JavaScript.</p>
+			<div class="header" id="userAnimation2"></div>
+			<button id="animate2">Click me</button>
+			<div class="hint">
+				<p>Notice that the buttons are used to trigger the change in the color of the div. There are many other implementations that can be used to achieve the same functionality.<br><br>How would you do this if you only had the div, and not the button?<br>Are there other events besides "click" that we could potentially use?<p>
+			</div>
+		</div>
+		<div class="task">
+			<h5>3. Have the div repeatedly alternate between two colors using only CSS animations</h5>
+			<div class="header" id="autoAnimation"></div>
+		</div>
+		<div class="task">
+			<h5>4. On button click, change the text in the paragraph to value in the input.</h5>
+			<p>Did you know the longest banana split is over a mile long. That's ridiculous!</p>
+			<input id="myInput"/><button>update text</button>
+		</div>
+		<div class="task">
+			<h5>5. On button click, alternate between hiding and showing the text below.</h5>
+			<p id="hideOrShow">Benedict Cumberbatch is the sexist man alive.</p>
+			<button>hide/show text</button>
+		</div>
+		<div class="task">
+			<h5>6. The last part is going to be implementing a to-do-list. Users should be able to input an item and add it, or delete an item by clicking on it. Read the comment in index.html before starting.</h5>
+
+	<!-- 	To make the problem simpler, you can treat the list as just a series of <p></p> tags. For example:
+
+			<p>Take out the trash</p>
+			<p>Do the dishes</p>
+
+			If you've having trouble with the input field, you can choose a task and instead add this preset one every time. For example:
+
+			script.js
+			var task = "do homework"
+
+			browser
+			<p>do homework</p>
+			<p>do homework</p>
+			<p>do homework</p>
+	-->
+
+			<div id="myList">
+			</div>
+			<input id="item"/><button id="addItem">add item</button>
+		</div>
+	</div>
+</body>
+</html>

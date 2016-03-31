@@ -1,0 +1,45 @@
+/*Colors
+
+#FF4C4C
+#278C7A
+*/
+
+
+/* Add any styles that you want above. */
+
+h5 {
+	font-family: Montserrat;
+	font-size: 15px;
+}
+
+p {
+	font-family: Open Sans;
+	font-size: 13px;
+}
+
+button {
+	font-family: Montserrat;
+}
+
+.header {
+	width: 100%;
+	height: 50px;
+	background-color: #278C7A;
+	margin-bottom: 15px;
+}
+
+.task {
+	margin-bottom: 60px;
+}
+
+.hint {
+	margin-bottom: 25px;
+	margin-top: 25px;
+}
+
+.container {
+	margin-right: 125px;
+	margin-left: 125px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
